@@ -1,6 +1,26 @@
-# WhereItIs
+# Where It Is Intro
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
+This project is inspired by my wife since I always need to ask her "where's my stuff".
+
+"Where It Is" provides a solution for people who struggle with finding things that they aren't using for daily life, e.g. charger, screwdriver, school glue...
+
+When user wants to remember something, simply take a photo(s) or upload an existing picture(s) to  "Where It Is", our APP will recognize what the thing is and where to put it by using google's Vision API.
+
+## Phrases
+1. Angular 6 + nodeJS(ExpressJS) + mongoDB + Webview 
+2. Transfer from Webview to React Native 
+
+## System Design
+Scenario
+Necessary
+Application 
+Kilobit(data)
+Evolve
+
+## How to Make a Vision API request
+
+https://cloud.google.com/vision/docs/request
+
 
 ## Development server
 
