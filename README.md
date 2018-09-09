@@ -10,6 +10,12 @@ When user wants to remember something, simply take a photo(s) or upload an exist
 1. Angular 6 + nodeJS(ExpressJS) + mongoDB + Webview 
 2. Transfer from Webview to React Native 
 
+## User Case
+1. log in
+    a. sign up
+2. list of memories if any
+    b. take photo or upload an existing picture if there havn't any
+
 ## System Design
 Scenario
 Necessary
@@ -45,3 +51,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## how to upload to github 
+
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
