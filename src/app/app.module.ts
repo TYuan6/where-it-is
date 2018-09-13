@@ -10,6 +10,7 @@ import { SignUpComponent } from './core/sign-up/sign-up.component';
 import { ItemBarComponent } from './shared/components/item-bar/item-bar.component';
 import { PopUpComponent } from './shared/components/pop-up/pop-up.component';
 import { SearchComponent } from './shared/components/search/search.component';
+import { ItemListComponent } from './core/item-list/item-list.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SearchComponent } from './shared/components/search/search.component';
     SignUpComponent,
     ItemBarComponent,
     PopUpComponent,
-    SearchComponent
+    SearchComponent,
+    ItemListComponent
   ],
   imports: [
     BrowserModule
