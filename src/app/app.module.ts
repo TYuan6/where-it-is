@@ -16,6 +16,7 @@ import { FooterComponent } from './core/footer/footer.component';
 
 
 const appRoutes: Routes = [
+  { path: '', component: MainPageComponent},
   { path: 'scan', component: ScanComponent }
 ];
 @NgModule({
