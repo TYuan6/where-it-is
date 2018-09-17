@@ -10,6 +10,7 @@ export class ScanComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('scan com');
   }
 
 }

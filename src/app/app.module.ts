@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { LogInComponent } from './core/log-in/log-in.component';
@@ -11,7 +12,12 @@ import { ItemBarComponent } from './shared/components/item-bar/item-bar.componen
 import { PopUpComponent } from './shared/components/pop-up/pop-up.component';
 import { SearchComponent } from './shared/components/search/search.component';
 import { ItemListComponent } from './core/item-list/item-list.component';
+import { FooterComponent } from './core/footer/footer.component';
 
+
+const appRoutes: Routes = [
+  { path: 'scan', component: ScanComponent }
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,10 +29,12 @@ import { ItemListComponent } from './core/item-list/item-list.component';
     ItemBarComponent,
     PopUpComponent,
     SearchComponent,
-    ItemListComponent
+    ItemListComponent,
+    FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]

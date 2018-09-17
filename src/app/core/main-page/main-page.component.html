@@ -1,19 +1,7 @@
 <div>
   <app-search></app-search>
-  <app-item-list></app-item-list>
-  <footer class="fixed-bottom row">
-    <div class="col-3"></div>
-    <div class="p-2 col-3">
-      <button type="button" class="btn btn-light">
-        <img src="/assets/imgs/icons/plus_sign_1.png" alt="plus" height="35">
-      </button>
-    </div>
-    <div class="p-2 col-3">
-      <button type="button" class="btn btn-light">
-        <img src="/assets/imgs/icons/user-silhouette-icon.png" alt="plus" height="35">
-      </button>
-    </div>
-    <div class="col-3"></div>
-  </footer>
-
+  <div *ngFor= "let i of [6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6]">
+    <app-item-list></app-item-list>
+  </div>
+  <app-footer></app-footer>
 </div>
