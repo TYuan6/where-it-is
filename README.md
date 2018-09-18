@@ -55,3 +55,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## how to upload to github 
 
 https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+## how to delpoy to github pages
+
+First install angular-cli-ghpages globally
+    npm install -g angular-cli-ghpages
+Angular CLI with the --base-href
+    ng build --prod --base-href="https://<user-name>.github.io/<repo>/"
+To publish the app
+    ngh
