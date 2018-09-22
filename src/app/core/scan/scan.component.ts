@@ -12,5 +12,7 @@ export class ScanComponent implements OnInit {
   ngOnInit() {
     console.log('scan com');
   }
-
+  uploaderImage(event): void {
+    console.log(event.target.files[0]);
+  }
 }
