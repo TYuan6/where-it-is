@@ -7,12 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ScanComponent implements OnInit {
 
+  public selectedFile: File;
+
   constructor() { }
 
   ngOnInit() {
     console.log('scan com');
   }
-  uploaderImage(event): void {
-    console.log(event.target.files[0]);
+  onFileChanged(event): void {
+    this.selectedFile = event.target.files[0];
+    console.log(this.selectedFile);
+
   }
+
+
+
+
 }

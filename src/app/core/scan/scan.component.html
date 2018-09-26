@@ -1,2 +1,13 @@
-<div>Upload an image</div>
-<input type="file" (change)="uploaderImage($event)">
+<!-- <div>Upload an image</div> -->
+
+<div class="row result-section"></div>
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4 text-center">
+        <input type="file" style="display: none" (change)="onFileChanged($event)" #fileInput>
+        <button class="btn btn-light background" (click)=fileInput.click()>
+            <img src="/assets/imgs/icons/add_photo-512.png" alt="plus" height="100">
+        </button>
+    </div>
+    <div class="col-4"></div>
+</div>
