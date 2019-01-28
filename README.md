@@ -7,13 +7,14 @@ This project is inspired by my wife since I always need to ask her "where's my s
 When user wants to remember something, simply take a photo(s) or upload an existing picture(s) to  "Where It Is", our APP will recognize what the thing is and where to put it by using google's Vision API.
 
 ## Phrases
-1. Angular 6 + nodeJS(ExpressJS) + mongoDB + Webview 
+1. Angular 7 + nodeJS(ExpressJS) + mongoDB + Webview 
 2. Transfer from Webview to React Native 
 
 ## User Case
 1. log in
     a. sign up
 2. list of memories if any
+    a. using voice to text API to location your memory
     b. take photo or upload an existing picture if there havn't any
 
 ## System Design
